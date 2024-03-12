@@ -1,6 +1,7 @@
 # [CLASS 1] 단어의 개수 - 1152
 
-[문제 링크](https://www.acmicpc.net/problem/1152) 
+[문제 링크](https://www.acmicpc.net/problem/1152)
+[블로그 링크](https://heui-yong.github.io/백준/post-백준-1152/)
 
 ### 문제 설명
 

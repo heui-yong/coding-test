@@ -1,6 +1,8 @@
 # [CLASS 1] A+B - 1000 
 
-[문제 링크](https://www.acmicpc.net/problem/1000) 
+[문제 링크](https://www.acmicpc.net/problem/1000)
+
+[블로그 링크](https://heui-yong.github.io/백준/post-백준-1000/)
 
 ### 문제 설명
 
