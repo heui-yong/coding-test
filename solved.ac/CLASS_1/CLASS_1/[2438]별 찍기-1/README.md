@@ -1,4 +1,4 @@
-# [CLASS 1] 단어 공부 - 2438
+# [CLASS 1] 별 찍기-1 - 2438
 
 [문제 링크](https://www.acmicpc.net/problem/2438) 
 
