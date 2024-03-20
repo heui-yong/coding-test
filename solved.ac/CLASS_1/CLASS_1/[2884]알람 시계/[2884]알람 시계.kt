@@ -5,10 +5,19 @@ import java.io.OutputStreamWriter
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val bfWriter = BufferedWriter(OutputStreamWriter(System.out))
-    val year = readln().toInt()
-    if (year%4==0 && (year%100!=0 || year%400==0)) {
-        bfWriter.write("1")
-    } else bfWriter.write("0")
+
+    val data = readln().split(" ")
+    val hour = data[0].toInt()
+    val minute = data[1].toInt()-45
+
+    bfWriter.write(
+        when {
+            minute < 0 -> {
+                if (hour - 1 < 0) "23 ${60 + minute}" else "${hour - 1} ${60 + minute}"
+            }
+            else -> "$hour $minute"
+        }
+    )
 
     bfWriter.flush()
     bfWriter.close()
