@@ -6,11 +6,14 @@ import java.util.StringTokenizer
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val bfWriter = BufferedWriter(OutputStreamWriter(System.out))
-    var str: String?
 
-    while (readLine().also {str = it} != null) {
-        val st = StringTokenizer(str)
-        bfWriter.write("${st.nextToken().toInt()+st.nextToken().toInt()}\n")
+    while (true) {
+        val st = StringTokenizer(readLine())
+        val A = st.nextToken().toInt()
+        val B = st.nextToken().toInt()
+
+        if (A==0 && B==0) break
+        bfWriter.write("${A+B}\n")
     }
 
     bfWriter.flush()
